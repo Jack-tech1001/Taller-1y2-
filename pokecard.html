@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Pokedex</title>
+    </head>
+    <body>
+    <header class="header">
+        <h1>Pokecard</h1>
+        <label for="pokemonName">Nombre del Pokémon:</label>
+        <input type="text" id="pokemonName">
+        <button class="boton" onclick="buscarPokemon(document.getElementById('pokemonName').value)">Buscar</button>
+    </header>
+    
+        <label for="tipo">Selecciona un tipo de Pokémon:</label>
+    <select id="tipo">
+        <option value="grass">Hierba</option>
+        <option value="fire">Fuego</option>
+        <option value="water">Agua</option>
+    </select>
+
+    <button id="filtrar">Filtrar</button>
+
+    <div class="pokemons-container"> <!-- Contenedor de la lista de pokemons -->
+    <ul id="pokemons"></ul>
+    </div>
+    <section class="pokecard"> 
+    <div id="resultado">
+        <div id="pokemon-list"></div>
+    </div>
+    <script src="pokedex.js"></script>
+    </section>
+
+    <footer class="texto-footer">
+        <p>Copyright 2023 &copy; Frontend Intermedio - Universidad Distrital Francisco José de Caldas</p>
+        </footer>
+    <script src="/pokedex.js"></script>
+</body>
+</html>

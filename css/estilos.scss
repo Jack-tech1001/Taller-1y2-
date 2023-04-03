@@ -1,0 +1,166 @@
+@import '../css/mixins/mixin';
+@import '../css/variables/vars';
+@import '../css/funciones/functions';
+
+
+body {
+    background-image: url('assets/img/bg.jpg');
+    background-size: cover;
+}
+
+
+header {
+    background-color: $color-primario;
+    font-size: $tamano-fuente-subtitulo;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.contenido {
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.navegacion {
+    ul {
+        list-style: none;
+        margin-top: 1rem;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+    
+        li {
+            display: inline-block;
+            margin: 3rem;
+
+            a {
+                color: rgb(245, 53, 53);
+                text-decoration: solid;
+                font-weight: bold;
+                font-size: $font-size-enlaces;
+                border-bottom: 2px solid transparent;
+                padding-bottom: 5px;
+                transition: border-bottom-color 0.4s;
+
+                &:hover {
+                    border-bottom-color: rgb(81, 255, 0);
+                }
+            }
+
+            &.active {
+                a {
+                    border-bottom-color: rgb(69, 253, 238);
+                }
+            }
+        }
+    }
+}
+
+h1{ font-size: $tamano-fuente-titulo;
+    margin-top: 2rem;
+    padding: 1rem;
+    
+}
+
+h2 {
+    font-size: $tamano-fuente-titulo;
+    margin-top: 1rem;
+    padding: 0;
+    
+}
+
+
+p {
+    font-size: $tamano-letra-cuerpo; 
+    font-family: $font-cuerpo;
+    color: $color-header;
+    margin-top: 1rem;
+    padding: 0;
+
+}
+
+.boton {
+    display: inline-block;
+    padding: $button-padding;
+    border-radius: $button-border-radius;
+    background-color: $color-enlaces;
+    color: $color-secundario;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+    background-color: $color-secundario;
+    color: $color-enlaces;
+    }
+}
+
+.boton-enlace {
+    color: $color-primario;
+    text-decoration: none;
+    &:hover {
+    color: $color-fondo;
+    }
+}
+
+.intro-img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.texto-footer {
+    background-color: $color-footer-bg;
+    color: $color-primario;
+    font-size: $footer-text-size;
+    padding: $footer-padding;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+#pokemons {
+    display: flex;
+    flex-wrap: wrap; /* Ajustar los elementos en filas y columnas /
+    justify-content: center; / Centrar los elementos horizontalmente */
+    }
+    
+    li {
+    width: 200px; 
+    margin: 1px; 
+    }
+    
+.pokecard {
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    }
+    
+#resultado {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: $color-fondo;
+    height: 150vh;
+}
+    
+#resultado p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Roboto', cursive, sans-serif;
+}
+    

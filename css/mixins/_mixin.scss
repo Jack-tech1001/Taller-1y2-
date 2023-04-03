@@ -1,0 +1,19 @@
+@mixin boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin texto {
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    background-color: $color-primario;
+
+    &:hover {
+        background-color: darken($color-primario, 10%);
+        cursor: pointer;
+    }
+}

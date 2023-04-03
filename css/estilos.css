@@ -1,0 +1,148 @@
+body {
+  background-image: url("assets/img/bg.jpg");
+  background-size: cover;
+}
+
+header {
+  background-color: #09a7f0;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.contenido {
+  width: 500px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.navegacion ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navegacion ul li {
+  display: inline-block;
+  margin: 3rem;
+}
+.navegacion ul li a {
+  color: rgb(245, 53, 53);
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  font-weight: bold;
+  font-size: 2rem;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+  transition: border-bottom-color 0.4s;
+}
+.navegacion ul li a:hover {
+  border-bottom-color: rgb(81, 255, 0);
+}
+.navegacion ul li.active a {
+  border-bottom-color: rgb(69, 253, 238);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  color: #4d4b4b;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 5px;
+  border-radius: 4px;
+  background-color: #333;
+  color: #ce0648;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+.boton:hover {
+  background-color: #ce0648;
+  color: #333;
+}
+
+.boton-enlace {
+  color: #09a7f0;
+  text-decoration: none;
+}
+.boton-enlace:hover {
+  color: #def091;
+}
+
+.intro-img {
+  width: 100%;
+  height: auto;
+}
+
+.texto-footer {
+  background-color: #333;
+  color: #09a7f0;
+  font-size: 14px;
+  padding: 5rem 5rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 2.5rem;
+}
+
+#pokemons {
+  display: flex;
+  flex-wrap: wrap; /* Ajustar los elementos en filas y columnas /
+justify-content: center; / Centrar los elementos horizontalmente */
+}
+
+li {
+  width: 200px;
+  margin: 1px;
+}
+
+.pokecard {
+  width: 500px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+
+#resultado {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: #def091;
+  height: 150vh;
+}
+
+#resultado p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Roboto", cursive, sans-serif;
+}/*# sourceMappingURL=estilos.css.map */

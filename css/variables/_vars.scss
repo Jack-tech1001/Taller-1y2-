@@ -1,0 +1,47 @@
+//Colores
+$color-primario: #09a7f0;
+$color-secundario: #ce0648;
+$color-fondo: #def091;
+$color-enlaces: #333;
+$color-header: #4d4b4b;
+$color-footer-bg: #333;
+
+$tamano-fuente-titulo: 2.5rem;
+$tamano-fuente-subtitulo: 1.5rem;
+$tamano-letra-cuerpo: 1.2rem;
+$tamano-boton: 1.5rem;
+$tamano-enlaces: 1.1rem;
+
+$font-size-enlaces: 2rem;
+$font-titulo: "Roboto Slab", serif;
+$font-cuerpo: "Open Sans", sans-serif;
+
+$espaciado-vertical: 1rem;
+$espaciado-horizontal: 1.5rem;
+
+$border-width: 2px;
+$border-color: $color-primario;
+$button-padding: 10px 5px;
+$button-border-radius: 4px;
+$footer-text-color: #ffffff;
+$footer-text-size: 14px;
+$footer-padding: 5rem 5rem;
+$titulo-font-family: 'Open Sans', sans-serif;
+$titulo-font-weight: bold;
+$titulo-font-size: 3rem;
+$title-text-color: #646461;
+
+// Imágenes
+$img-titulo1: url('/assets/img/titulo-1.jpg');
+$img-titulo2: url('/assets/img/titulo-2.jpg');
+$img-titulo3: url('/assets/img/titulo-3.jpg');
+
+// Tamaños de imagen
+$tamano-img-titulo1: 100%;
+$tamano-img-titulo2: 80%;
+$tamano-img-titulo3: 60%;
+
+// Posiciones de imagen
+$posicion-img-titulo1: center center;
+$posicion-img-titulo2: left bottom;
+$posicion-img-titulo3: right top;

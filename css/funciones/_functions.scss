@@ -1,0 +1,7 @@
+@function calcular-ancho($ancho-contenedor, $ancho-elemento) {
+    @return percentage($ancho-elemento / $ancho-contenedor);
+}
+
+@function calcular-alto($alto-contenedor, $alto-elemento) {
+    @return percentage($alto-elemento / $alto-contenedor);
+}
